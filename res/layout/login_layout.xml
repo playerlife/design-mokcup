@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.metersbonwe.www.design.widget.login.LoginLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/login_panel"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="#fff"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="用户名"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:width="100dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="密码"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:text=""
+            android:width="100dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="click me to login..."
+        android:id="@+id/btn_login"
+        android:layout_height="wrap_content" />
+
+
+</com.metersbonwe.www.design.widget.login.LoginLayout>

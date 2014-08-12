@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.metersbonwe.www.design.widget.DynamicLayoutView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/actionbar" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/dynamic_list_view"
+        android:layout_height="match_parent"></ListView>
+
+</com.metersbonwe.www.design.widget.DynamicLayoutView>
